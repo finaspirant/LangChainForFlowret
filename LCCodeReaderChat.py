@@ -26,7 +26,7 @@ retriever.search_kwargs['k'] = 10
 
 
 
-model = ChatOpenAI(model='gpt-3.5-turbo') # switch to 'gpt-4'
+model = ChatOpenAI(model='gpt-3.5-turbo') # switch to 'gpt-4' with money
 qa = RetrievalQA.from_llm(model, retriever=retriever)
 
 # Return the result of the query
