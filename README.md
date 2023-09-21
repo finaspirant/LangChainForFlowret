@@ -1,0 +1,9 @@
+title: LangChainTryOuts
+emoji: 🌍
+colorFrom: purple
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.26.0
+app_file: LCCodeReaderChat.py
+pinned: false
+# LangChain
