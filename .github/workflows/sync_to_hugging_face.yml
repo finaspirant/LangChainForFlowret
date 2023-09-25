@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://finaspirant:$HF_TOKEN@huggingface.co/spaces/finaspirant/LangChainTryOuts
+        run: git push https://finaspirant:$HF_TOKEN@huggingface.co/spaces/finaspirant/LangChainTryOuts master
